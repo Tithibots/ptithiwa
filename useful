@@ -1,0 +1,2 @@
+# find activity name
+adb shell dumpsys activity recents | find " realActivity="
